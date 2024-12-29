@@ -1,0 +1,3 @@
+browser=chrome
+baseURL=https://example.com
+testdataPath=src/main/resources/testdata.xlsx
