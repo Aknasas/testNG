@@ -14,14 +14,10 @@ public class BasePage {
 
     public MySoftlogicHome loadURL(String url){
         driver.get(url);
-        //return new EbayHome(); this was removed coz Pagefactory is mre efficient
         return PageFactory.initElements(driver, MySoftlogicHome.class);
     }
 
     public void scroll(int x,int y){
-        //Actions action = new Actions(driver);
-        //action.scrollByAmount(x,y).perform();
-
         new Actions(driver).scrollByAmount(x,y).perform();
     }
 }
