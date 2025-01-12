@@ -1,3 +1,3 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","13968","searchLaptop","Command line suite","Sun Jan 12 16:37:40 IST 2025","passed","Sun Jan 12 16:37:54 IST 2025","mit4201.a3.pom.tests.TestLaptopSearch","Command line test","mit4201.a3.pom.tests.TestLaptopSearch","searchLaptop"
 "","17921","searchMobilePhones","Command line suite","Sun Jan 12 16:37:57 IST 2025","passed","Sun Jan 12 16:38:15 IST 2025","mit4201.a3.pom.tests.TestMobilePhonesSearch","Command line test","mit4201.a3.pom.tests.TestMobilePhonesSearch","searchMobilePhones"
+"","13968","searchLaptop","Command line suite","Sun Jan 12 16:37:40 IST 2025","passed","Sun Jan 12 16:37:54 IST 2025","mit4201.a3.pom.tests.TestLaptopSearch","Command line test","mit4201.a3.pom.tests.TestLaptopSearch","searchLaptop"
