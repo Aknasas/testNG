@@ -51,6 +51,12 @@
       <version>5.0.9</version>
     </dependency>
 
+    <!-- Allure Reports -->
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-testng</artifactId> <!-- For TestNG -->
+      <version>2.21.0</version> <!-- Use the latest version -->
+    </dependency>
 
 
     <!-- Lombok -->
