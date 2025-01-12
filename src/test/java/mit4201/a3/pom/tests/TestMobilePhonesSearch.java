@@ -7,21 +7,16 @@ import mit4201.a3.pom.utils.TestingUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class TestMobilePhonesSearch extends TestingUtils {
     @Test
-    public void searchMobilePhones() throws Exception {
+    public void searchMobilePhones() throws IOException {
+        ExcelUtils excelUtils = new ExcelUtils("src/test/resources/TestData.xlsx", "phones");
+        String selectURL = excelUtils.getCellData(0,1);
+        String searchText = excelUtils.getCellData(1, 1);
 
         try {
-            ExcelUtils excelUtils = new ExcelUtils("src/test/resources/TestData.xlsx", "phones");
-            String selectURL = excelUtils.getCellData(0,1);
-            String searchText = excelUtils.getCellData(1, 1);
-            String selectOption = excelUtils.getCellData(2, 1);
-            System.out.println("URL: " + excelUtils.getCellData(0, 1));
-            System.out.println("Search Text: " + excelUtils.getCellData(1, 1));
-            System.out.println("Select Option: " + excelUtils.getCellData(2, 1));
-            System.out.println("Page Title: " + driver.getTitle());
-
-
             MySoftlogicHome mySoftlogicHome = loadBasePage().loadURL(selectURL);
             mySoftlogicHome.insertTextToSearchBox(searchText);
             PhoneResult phoneResult = mySoftlogicHome.clickSearchButton();
