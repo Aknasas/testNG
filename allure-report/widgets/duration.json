@@ -1,0 +1,1 @@
+[{"uid":"f9b12aa09ac14ff6","name":"searchLaptop","time":{"start":1736680060635,"stop":1736680074603,"duration":13968},"status":"passed","severity":"normal"},{"uid":"10ab135dfd87e449","name":"searchMobilePhones","time":{"start":1736680077430,"stop":1736680095351,"duration":17921},"status":"passed","severity":"normal"}]
